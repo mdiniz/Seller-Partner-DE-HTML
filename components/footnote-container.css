@@ -1,0 +1,40 @@
+.footnote-container-legal-container {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: flex-end;
+  justify-content: center;
+}
+.footnote-container-navlink {
+  font-size: 14px;
+  text-decoration: none;
+}
+.footnote-container-navlink1 {
+  font-size: 14px;
+  margin-top: 0px;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: 0px;
+  margin-bottom: 0px;
+  text-decoration: none;
+}
+.footnote-container-navlink2 {
+  font-size: 14px;
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.footnote-container-link {
+  display: none;
+  font-size: 14px;
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+
+
+
+
+
+
+
