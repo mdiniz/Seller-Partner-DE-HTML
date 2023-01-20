@@ -24,6 +24,9 @@
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
+.feature-card2-text1 {
+  line-height: 1.3;
+}
 
 
 
