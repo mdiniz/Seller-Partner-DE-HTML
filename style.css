@@ -46,7 +46,7 @@
   cursor: pointer;
   display: inline-block;
   padding: 12px 24px;
-  border-color: var(--dl-color-scheme-foreground);
+  border-color: var(--dl-color-scheme-purple700);
   border-width: 2px;
   border-radius: 32px;
   background-color: var(--dl-color-scheme-white);
@@ -85,31 +85,28 @@
   transform: none !important;
 }
 .button-secondary {
+  color: var(--dl-color-scheme-purple700);
   font-style: normal;
   transition: 0.3s;
-  font-family: Lexend;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1;
-  border-color: var(--dl-color-scheme-green80);
-  margin-right: var(--dl-space-space-unit);
 }
 .button-secondary:hover {
   color: var(--dl-color-scheme-white);
-  background-color: var(--dl-color-scheme-orange100);
+  border-color: var(--dl-color-scheme-purple400);
+  background-color: var(--dl-color-scheme-purple400);
 }
 .button-primary {
   color: var(--dl-color-scheme-white);
   font-style: normal;
   transition: 0.3s;
-  font-family: Lexend;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1;
-  border-color: var(--dl-color-scheme-green80);
-  background-color: var(--dl-color-scheme-green80);
+  background-color: var(--dl-color-scheme-purple700);
 }
 .button-primary:hover {
-  color: var(--dl-color-scheme-green80);
-  background-color: var(--dl-color-scheme-lightgreen);
+  border-color: var(--dl-color-scheme-purple500);
+  background-color: var(--dl-color-scheme-purple500);
 }
 .navbar-container {
   top: 0;
@@ -146,8 +143,8 @@
   padding-top: 20px;
   border-color: transparent;
   margin-right: var(--dl-space-space-unit);
-  padding-left: 32px;
-  padding-right: 32px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
   padding-bottom: 20px;
 }
 .button-gradient:hover {
@@ -164,13 +161,14 @@
   line-height: 0.9;
   padding-top: 20px;
   border-color: var(--dl-color-scheme-white);
-  padding-left: 32px;
-  padding-right: 32px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
   padding-bottom: 20px;
   background-color: transparent;
 }
 .button-transparent:hover {
-  color: var(--dl-color-scheme-green80);
+  color: var(--dl-color-scheme-foreground);
+  border-color: var(--dl-color-scheme-lightgreen);
   background-color: var(--dl-color-scheme-lightgreen);
 }
 .section-container {
