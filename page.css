@@ -71,7 +71,7 @@
   font-weight: 700;
   line-height: 1.2;
   margin-left: var(--dl-space-space-unit);
-  letter-spacing: 0.15em;
+  letter-spacing: 0.1em;
   text-decoration: none;
 }
 .page-links {
@@ -84,17 +84,23 @@
   margin-right: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.page-button {
-  color: var(--dl-color-scheme-purple700);
-  border-color: var(--dl-color-scheme-purple700);
-}
 .page-link1 {
   color: var(--dl-color-scheme-purple700);
-  text-decoration: none;
-}
-.page-link2 {
+  font-family: Titillium Web;
   border-color: var(--dl-color-scheme-purple700);
   text-decoration: none;
+}
+.page-text01 {
+  color: var(--dl-color-scheme-purple700);
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 600;
+}
+.page-link2 {
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 600;
+  border-color: var(--dl-color-scheme-purple700);
   background-color: var(--dl-color-scheme-purple700);
 }
 .page-burger-menu {
@@ -110,10 +116,10 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.page-text01 {
+.page-text02 {
   color: var(--dl-color-scheme-darkgray1);
 }
-.page-text04 {
+.page-text05 {
   color: var(--dl-color-scheme-darkgray1);
   display: none;
   margin-top: var(--dl-space-space-twounits);
@@ -125,7 +131,7 @@
 .page-link4 {
   text-decoration: underline;
 }
-.page-button1 {
+.page-button {
   color: var(--dl-color-scheme-purple700);
   display: flex;
   margin-top: var(--dl-space-space-twounits);
@@ -152,7 +158,7 @@
   justify-content: center;
 }
 @media(max-width: 991px) {
-  .page-text01 {
+  .page-text02 {
     color: var(--dl-color-scheme-darkgray1);
   }
   .page-footer {
