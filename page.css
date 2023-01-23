@@ -89,30 +89,18 @@
   text-decoration: none;
 }
 .page-link1 {
-  margin-right: var(--dl-space-space-twounits);
-  text-decoration: none;
-}
-.page-link2 {
-  margin-right: var(--dl-space-space-twounits);
-  text-decoration: none;
-}
-.page-link3 {
-  color: var(--dl-color-scheme-purple700);
-  border-color: var(--dl-color-scheme-purple700);
-  text-decoration: none;
-}
-.page-text02 {
-  color: var(--dl-color-scheme-purple700);
   font-style: normal;
-  font-weight: 600;
-}
-.page-link4 {
-  font-style: normal;
-  font-family: Titillium Web;
+  transition: 0.3s;
   font-weight: 700;
-  border-color: var(--dl-color-scheme-purple700);
-  background-color: var(--dl-color-scheme-purple700);
+  margin-right: var(--dl-space-space-unit);
 }
+
+.page-link2 {
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+}
+
 .page-burger-menu {
   fill: #105749;
   width: 24px;
@@ -126,34 +114,11 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.page-text03 {
+.page-text05 {
   color: var(--dl-color-scheme-darkgray1);
-}
-.page-text06 {
-  color: var(--dl-color-scheme-darkgray1);
-  display: none;
-  margin-top: var(--dl-space-space-twounits);
-  line-height: 1.5;
-}
-.page-link5 {
-  text-decoration: underline;
-}
-.page-link6 {
-  text-decoration: underline;
-}
-.page-button {
-  color: var(--dl-color-scheme-purple700);
-  display: flex;
-  margin-top: var(--dl-space-space-twounits);
-  border-color: var(--dl-color-scheme-purple700);
-  flex-direction: row;
-  background-color: transparent;
 }
 .page-navlink1 {
-  font-style: normal;
-  font-weight: 700;
-  border-color: var(--dl-color-scheme-purple400);
-  border-width: 2px;
+  margin-top: var(--dl-space-space-twounits);
   text-decoration: none;
 }
 .page-footer {
@@ -168,7 +133,7 @@
   justify-content: center;
 }
 @media(max-width: 991px) {
-  .page-text03 {
+  .page-text05 {
     color: var(--dl-color-scheme-darkgray1);
   }
   .page-footer {

@@ -80,23 +80,27 @@
   align-items: center;
   flex-direction: row;
 }
+.datenschutz-text1 {
+  display: none;
+  margin-right: var(--dl-space-space-twounits);
+}
 .datenschutz-link {
   margin-right: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.datenschutz-button {
-  color: var(--dl-color-scheme-purple700);
-  border-color: var(--dl-color-scheme-purple700);
-}
 .datenschutz-link1 {
-  color: var(--dl-color-scheme-purple700);
-  text-decoration: none;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+  margin-right: var(--dl-space-space-unit);
 }
+
 .datenschutz-link2 {
-  border-color: var(--dl-color-scheme-purple700);
-  text-decoration: none;
-  background-color: var(--dl-color-scheme-purple700);
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
 }
+
 .datenschutz-burger-menu {
   fill: #105749;
   width: 24px;
