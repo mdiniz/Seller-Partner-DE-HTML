@@ -80,27 +80,23 @@
   align-items: center;
   flex-direction: row;
 }
-.impressum-text01 {
-  display: none;
-  margin-right: var(--dl-space-space-twounits);
-}
 .impressum-link {
   margin-right: var(--dl-space-space-twounits);
   text-decoration: none;
 }
+.impressum-button {
+  color: var(--dl-color-scheme-purple700);
+  border-color: var(--dl-color-scheme-purple700);
+}
 .impressum-link1 {
-  font-style: normal;
-  transition: 0.3s;
-  font-weight: 700;
-  margin-right: var(--dl-space-space-unit);
+  color: var(--dl-color-scheme-purple700);
+  text-decoration: none;
 }
-
 .impressum-link2 {
-  font-style: normal;
-  transition: 0.3s;
-  font-weight: 700;
+  border-color: var(--dl-color-scheme-purple700);
+  text-decoration: none;
+  background-color: var(--dl-color-scheme-purple700);
 }
-
 .impressum-burger-menu {
   fill: #105749;
   width: 24px;
@@ -114,10 +110,10 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.impressum-text05 {
+.impressum-text01 {
   color: var(--dl-color-scheme-darkgray1);
 }
-.impressum-text08 {
+.impressum-text04 {
   color: var(--dl-color-scheme-darkgray1);
   margin-top: var(--dl-space-space-twounits);
   line-height: 1.5;
@@ -140,7 +136,7 @@
   justify-content: center;
 }
 @media(max-width: 991px) {
-  .impressum-text05 {
+  .impressum-text01 {
     color: var(--dl-color-scheme-darkgray1);
   }
   .impressum-footer {
