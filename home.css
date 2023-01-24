@@ -282,7 +282,7 @@
   margin-bottom: var(--dl-space-space-twounits);
 }
 .home-text001 {
-  color: var(--dl-color-scheme-orange100);
+  color: var(--dl-color-scheme-zalando);
 }
 .home-description {
   color: var(--dl-color-scheme-white);
@@ -908,6 +908,11 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: center;
+}
+@media(max-width: 1600px) {
+  .home-text001 {
+    color: var(--dl-color-scheme-orange100);
+  }
 }
 @media(max-width: 991px) {
   .home-logo {
