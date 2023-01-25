@@ -1,3 +1,19 @@
+.enchant-widget-container {
+  display: none;
+}
+
+
+
+
+
+.iubenda-cookie-banner-container {
+  display: none;
+}
+
+
+
+
+
 .footnote-container-legal-container {
   flex: 0 0 auto;
   width: 100%;
@@ -61,7 +77,7 @@
   display: contents;
 }
 .page-logo {
-  height: 1.8rem;
+  height: 1.6rem;
   text-decoration: none;
 }
 .page-desktop-menu {
@@ -192,9 +208,17 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: center;
 }
+@media(max-width: 1200px) {
+  .page-register {
+    text-decoration: none;
+  }
+  .page-register1 {
+    text-decoration: none;
+  }
+}
 @media(max-width: 991px) {
   .page-logo {
-    height: 1.6rem;
+    height: 1.4rem;
     margin-right: var(--dl-space-space-unit);
   }
   .page-text {
