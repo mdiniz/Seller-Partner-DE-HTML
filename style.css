@@ -220,6 +220,10 @@
   flex-direction: column;
   justify-content: flex-start;
 }
+.displno {
+  display: flex;
+  position: relative;
+}
 .beforeHeading {
   font-size: 14px;
   font-style: normal;
@@ -257,6 +261,8 @@
   text-transform: none;
   text-decoration: none;
 }
+
+
 
 @media(max-width: 767px) {
   .navbar-burger-menu {

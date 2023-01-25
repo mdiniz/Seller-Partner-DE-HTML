@@ -254,8 +254,7 @@
 }
 
 .enchant-widget-container {
-  display: flex;
-  position: relative;
+  display: none;
 }
 
 .footnote-container-legal-container {
