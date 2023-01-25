@@ -131,7 +131,7 @@
   display: contents;
 }
 .home-logo {
-  height: 1.8rem;
+  height: 1.6rem;
   text-decoration: none;
 }
 .home-desktop-menu {
@@ -916,7 +916,7 @@
 }
 @media(max-width: 991px) {
   .home-logo {
-    height: 1.6rem;
+    height: 1.4rem;
     margin-right: var(--dl-space-space-unit);
   }
   .home-content {
