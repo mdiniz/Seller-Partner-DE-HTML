@@ -1115,6 +1115,14 @@
   .home-title {
     font-size: 40px;
   }
+  .home-link06 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .home-link07 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
   .home-hero-image {
     height: 556px;
   }
