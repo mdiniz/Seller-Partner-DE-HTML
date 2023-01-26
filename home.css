@@ -776,8 +776,10 @@
   font-size: 1.4rem;
   align-self: center;
   font-style: normal;
-  text-align: left;
+  text-align: center;
   font-weight: 600;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
 }
 .home-link11 {
   text-decoration: underline;
