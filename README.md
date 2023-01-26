@@ -1,1 +1,0 @@
-# Seller-Partner-DE-HTML
